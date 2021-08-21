@@ -17,3 +17,15 @@ A device managerben megtudjuk nézni a port számot, azt is a board után a megf
 Ehhez a baud 115200at használjuk a monitorban, és a kódban a Serial.begin(115200)-at kell beállítani. + Both NL & CR
 
 3. Upload code
+
+4.
+Python script olvasni fogja a serialt:
+ehhez telepiteni kell:
+	pip install pyserial 
+	python -m pip install serial ??
+	python -m pip install pyautogui
+
+Állítsuk be a portot itt is ugyanarra mint a kódban.
+	
+Ha ez megvan, futtatni kell a scriptet és a serialról olvassa ki a gombok megnyomását.
+	
